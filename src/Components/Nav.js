@@ -1,5 +1,5 @@
-import { Navbar, Link, Text, Container } from "@nextui-org/react";
-import { AcmeLogo } from "./AcmeLogo";
+import { Navbar,Link, Text } from "@nextui-org/react";
+import { AcmeLogo } from "../Components/AcmeLogo";
 
 export default function Nav() {
   const collapseItems = [
@@ -15,26 +15,24 @@ export default function Nav() {
   ];
 
   return (
-
-    <Container >
-
+  
       <Navbar isBordered variant="sticky">
         <Navbar.Brand>
           <Navbar.Toggle aria-label="toggle navigation" />
           <AcmeLogo />
-          <Text b color="inherit" hideIn="xs">
-            ACME
+          <Text b color="#000000" hideIn="xs">
+            KAYTEE
           </Text>
         </Navbar.Brand>
-        <Navbar.Content enableCursorHighlight hideIn="xs" variant="underline">
-          <Navbar.Link href="#">Features</Navbar.Link>
+        <Navbar.Content enableCursorHighlight hideIn="xs" variant="underline" >
+          <Navbar.Link href="#">ABOUT</Navbar.Link>
           <Navbar.Link isActive href="#">
-            Customers
+            PROJECTS
           </Navbar.Link>
-          <Navbar.Link href="#">Pricing</Navbar.Link>
+          <Navbar.Link href="#">CONTACTS</Navbar.Link>
           <Navbar.Link href="#">Company</Navbar.Link>
         </Navbar.Content>
-        
+      
         <Navbar.Collapse>
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem key={item}>
@@ -51,7 +49,6 @@ export default function Nav() {
         ))}
       </Navbar.Collapse>
       </Navbar>
-      </Container>
 
   )
 }
