@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Shalimar&display=swap');
+*{
+    font-family: 'Roboto Mono', monospace;
+}
 
 .fexa{
     color: aliceblue;
@@ -6,4 +10,15 @@
     border-bottom: 2px solid white  ;
 }
 
+.herotext{
+    top: 50%;
+    left: 50%;
+}
 
+
+.background{
+    background-image:  url(../src/Components/images/bg.jpg) ,linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
