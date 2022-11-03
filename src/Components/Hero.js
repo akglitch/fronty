@@ -1,23 +1,32 @@
-import { Text, Button, Container } from "@nextui-org/react"
+import { Text, Button,  Container, Grid } from "@nextui-org/react"
+import Svg from "./Svg"
 
 
 function Hero() {
-    return (
-        <div className="background">
-           <Container>
-                    {/* <p>FexxaAi<br></br> <h1>welcome to fexa ai we welcome you to the world of ml</h1></p> */}
-                    <Text className="herotext" h1 size={35} weight={30} css={{color:"black"}} >I'm a frontend developer <br></br> with a passion for crafting elegant,  <br></br>user-friendly interfaces that are both functional and beautiful.</Text>
+  return (
+    <div className="background">
+      <Container >
+        <Grid.Container>
+          <Grid xs={12} sm={6} md={6} lg={6}>
+            <Text className="herotext" h1 size={35} weight={30} css={{ color: "black" }} >I'm a frontend developer <br></br> with a passion for crafting elegant,  <br></br>user-friendly interfaces that are both functional and beautiful.</Text>
+          </Grid>
 
-              
 
-              
-       
-            <Button bordered color={"gradient"} >
-               let's proceed
-            </Button>
-            </Container>
-        </div>
-    )
+
+
+          <Grid xs={12} sm={6} md={6} lg={6}>
+            <Svg />
+          </Grid>
+
+
+
+          <Button bordered color={"gradient"} >
+            let's proceed
+          </Button>
+        </Grid.Container>
+      </Container>
+    </div>
+  )
 }
 
 export default Hero
