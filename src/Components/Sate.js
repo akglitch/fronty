@@ -1,9 +1,19 @@
-import { Container } from "@nextui-org/react"
+import { Container,Text} from "@nextui-org/react"
 function Sate () {
     return(
 
+<div>
 
-
+<Text
+        h1
+        size={40}
+        css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+        }}
+        weight="bold"
+      >
+        Skills
+      </Text>
         <Container md>
 <svg viewBox="0 0 393.20715 231.515" xmlns="http://www.w3.org/2000/svg">
  <g transform="matrix(1.25 0 0 -1.25 -305.96 899.75)" stroke="red">
@@ -244,6 +254,7 @@ function Sate () {
  </g>
 </svg>
 </Container>
+</div>
     )
 }
 

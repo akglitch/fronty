@@ -4,8 +4,19 @@ import { items } from "./Data";
     import { Container, Grid, Card, Col, Row, Button, Text } from "@nextui-org/react";
 function  Projects() {
   return (
-  
+  <div>
+     <Text
+        h1
+        size={40}
+        css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+        }}
+        weight="bold"
+      >
+        Projects
+      </Text>
   <div className="cards">
+    
     <Container >
      <Grid.Container gap={2} justify="center">
     
@@ -72,6 +83,7 @@ function  Projects() {
 
 </Grid.Container>
 </Container>
+  </div>
   </div>
   )
 }
