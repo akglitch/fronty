@@ -5,7 +5,11 @@ import { items } from "./Data";
 function  Projects() {
   return (
   <div>
-     <Text
+    
+  
+    
+    <Container >
+    <Text
         h1
         size={30}
         css={{
@@ -15,9 +19,7 @@ function  Projects() {
       >
         Projects
       </Text>
-  <div className="cards">
-    
-    <Container >
+    <div className="cards">
      <Grid.Container gap={2} justify="center">
     
  {items.map((item) => (
@@ -82,9 +84,10 @@ function  Projects() {
 ))}
 
 </Grid.Container>
+</div>
 </Container>
   </div>
-  </div>
+  
   )
 }
       
