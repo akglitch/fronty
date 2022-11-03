@@ -6,7 +6,7 @@ function Sate () {
 
 <Text
         h1
-        size={40}
+        size={30}
         css={{
           textGradient: "45deg, $blue600 -20%, $pink600 50%",
         }}
