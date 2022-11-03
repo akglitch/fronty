@@ -1,4 +1,4 @@
-import { Text, Button,  Container, Grid } from "@nextui-org/react"
+import { Text, Container, Grid } from "@nextui-org/react"
 import Svg from "./Svg"
 
 
