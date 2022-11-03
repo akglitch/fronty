@@ -1,14 +1,16 @@
 import { items } from "./Data";
 
 
-    import { Grid, Card, Col, Row, Button, Text } from "@nextui-org/react";
+    import { Container, Grid, Card, Col, Row, Button, Text } from "@nextui-org/react";
 function  Projects() {
   return (
+  
   <div className="cards">
+    <Container >
      <Grid.Container gap={2} justify="center">
     
  {items.map((item) => (
-    <Grid xs={12} sm={4} x>
+    <Grid xs={12} sm={4}>
   <Card css={{ w: "100%", h: "400px" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
@@ -68,6 +70,7 @@ function  Projects() {
 ))}
 
 </Grid.Container>
+</Container>
   </div>
   )
 }
