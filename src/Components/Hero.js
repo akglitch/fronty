@@ -20,9 +20,7 @@ function Hero() {
 
 
 
-          <Button bordered color={"red"} >
-            let's proceed
-          </Button>
+        
         </Grid.Container>
       </Container>
     </div>
