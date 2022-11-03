@@ -16,9 +16,14 @@
 }
 
 
-.background{
+.cards{
+    display:  flex;
+}
+
+/* .background{
     background-image:  url(../src/Components/images/bg.jpg) ,linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));;
     background-position: center;
     background-size: cover;
     height: 70vh;
-}
+    background-attachment: fixed;
+} */
