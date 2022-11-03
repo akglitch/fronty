@@ -7,11 +7,11 @@ function  Projects() {
   
   <div className="cards">
     <Container >
-     <Grid.Container gap={2} justify="left">
+     <Grid.Container gap={2} justify="center">
     
  {items.map((item) => (
     <Grid xs={12} sm={4}>
-  <Card css={{ w: "80%", h: "300px" }}>
+  <Card css={{ w: "100%", h: "400px" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">

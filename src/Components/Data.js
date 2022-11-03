@@ -8,10 +8,5 @@ export const items = [
     {
         "img":require("../Components/images/4.png")
     },
-    {
-        "img":require("../Components/images/3.png")
-    },
-    {
-        "img":require("../Components/images/2.png")
-    }
+  
 ]
