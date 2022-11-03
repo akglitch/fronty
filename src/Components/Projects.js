@@ -22,10 +22,11 @@ function  Projects() {
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
+
         src={item.img}
         width="100%"
         height="100%"
-        objectFit="cover"
+        objectFit='contain'
         alt="Card example background"
       />
     </Card.Body>
