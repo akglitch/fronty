@@ -1,4 +1,5 @@
 import { Container, Text } from "@nextui-org/react"
+import Skills from "./Skills"
 function Sate() {
   return (
 
@@ -14,7 +15,9 @@ weight="bold"
 Skills
 </Text>
 
-      <Container md>
+      <Container sm>
+
+        <Skills />
         
         <svg viewBox="0 0 393.20715 231.515" xmlns="http://www.w3.org/2000/svg" >
           <g transform="matrix(1.25 0 0 -1.25 -305.96 899.75)" stroke="red">
