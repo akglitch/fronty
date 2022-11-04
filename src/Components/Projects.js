@@ -13,7 +13,7 @@ function  Projects() {
         h1
         size={30}
         css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",paddingBottom:"$15",paddingTop:"$15"
         }}
         weight="bold"
       >

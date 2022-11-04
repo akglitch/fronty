@@ -9,7 +9,7 @@ function Sate() {
         h1
         size={30}
         css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%", paddingLeft: "$10"
+          textGradient: "45deg, $blue600 -20%, $pink600 50%", paddingLeft: "$10",paddingTop:"$15",paddingBottom:"$15"
         }}
         weight="bold"
       >
