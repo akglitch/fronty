@@ -31,8 +31,10 @@ weight="bold"
 >
 Skills
 </Text>
-
-<Grid.Container gap={2} justify="center" alignContent="center">
+<Container lg>
+        <Grid.Container>
+          <Grid xs={12} sm={6} md={6} lg={6}>
+          <Grid.Container gap={2} justify="center" alignContent="center">
       {placements.map((placement) => (
         <Grid key={placement}>
           <Popover placement={placement}>
@@ -48,7 +50,22 @@ Skills
         </Grid>
       ))}
     </Grid.Container>
-    <Sate />
+          </Grid>
+
+
+
+
+          <Grid xs={12} sm={6} md={6} lg={6}>
+          <Sate />
+          </Grid>
+
+
+
+        
+        </Grid.Container>
+      </Container>
+
+
     </Container>
 
   );
