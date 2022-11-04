@@ -19,19 +19,19 @@ export default function Skills() {
   ];
 
   return (
-    <Container lg>
-      <Text
-
-h1
-size={30}
-css={{
-  textGradient: "45deg, $blue600 -20%, $pink600 50%", paddingLeft: "$10", paddingTop: "$15", paddingBottom: "$15"
-}}
-weight="bold"
->
-Skills
-</Text>
+  
+    
 <Container lg>
+<Text
+        h1
+        size={30}
+        css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",paddingBottom:"$15",paddingTop:"$15"
+        }}
+        weight="bold"
+      >
+        Skills
+      </Text>
         <Grid.Container>
           <Grid xs={12} sm={6} md={6} lg={6}>
           <Grid.Container gap={2} justify="center" alignContent="center">
@@ -62,10 +62,10 @@ Skills
 
 
         
-        </Grid.Container>
-      </Container>
+  
+     
 
-
+          </Grid.Container>
     </Container>
 
   );
