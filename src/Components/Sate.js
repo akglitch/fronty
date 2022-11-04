@@ -4,21 +4,22 @@ function Sate() {
   return (
 
     <div>
-<Text
+      <Text
 
-h1
-size={30}
-css={{
-  textGradient: "45deg, $blue600 -20%, $pink600 50%",paddingLeft:"$10"}}
-weight="bold"
->
-Skills
-</Text>
+        h1
+        size={30}
+        css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%", paddingLeft: "$10"
+        }}
+        weight="bold"
+      >
+        Skills
+      </Text>
 
       <Container sm>
 
         <Skills />
-        
+
         <svg viewBox="0 0 393.20715 231.515" xmlns="http://www.w3.org/2000/svg" >
           <g transform="matrix(1.25 0 0 -1.25 -305.96 899.75)" stroke="red">
             <path d="m315.97 682.46 25.517 20.339" fill="none" stroke-linecap="square" stroke-width=".83" />
