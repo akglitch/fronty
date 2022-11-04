@@ -3,7 +3,8 @@ import './App.css';
 import Hero from './Components/Hero';
 import Nav from './Components/Nav';
 import Projects from './Components/Projects';
-import Sate from './Components/Sate';
+import Skills from './Components/Skills';
+
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Nav />
         <Hero />
       <Projects />
-      <Sate />
+      <Skills />
+      
 
     </div>
   );

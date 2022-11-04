@@ -1,6 +1,7 @@
 
 
-import { Popover, Button, Text, Grid } from "@nextui-org/react";
+import { Popover, Button, Text, Grid, Container } from "@nextui-org/react";
+import Sate from "./Sate";
 
 export default function Skills() {
   const placements = [
@@ -18,12 +19,25 @@ export default function Skills() {
   ];
 
   return (
-    <Grid.Container gap={2} justify="center" alignContent="center">
+    <Container lg>
+      <Text
+
+h1
+size={30}
+css={{
+  textGradient: "45deg, $blue600 -20%, $pink600 50%", paddingLeft: "$10", paddingTop: "$15", paddingBottom: "$15"
+}}
+weight="bold"
+>
+Skills
+</Text>
+
+<Grid.Container gap={2} justify="center" alignContent="center">
       {placements.map((placement) => (
         <Grid key={placement}>
           <Popover placement={placement}>
             <Popover.Trigger>
-              <Button auto bordered color="gradient">{placement}</Button>
+              <Button auto bordered color="secondary">{placement}</Button>
             </Popover.Trigger>
             <Popover.Content>
               <Text css={{ p: "$10" }}>
@@ -34,5 +48,8 @@ export default function Skills() {
         </Grid>
       ))}
     </Grid.Container>
+    <Sate />
+    </Container>
+
   );
 }

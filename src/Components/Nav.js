@@ -18,7 +18,7 @@ export default function Nav() {
 
   return (
 
-      <Navbar isBordered variant="sticky">
+      <Navbar  maxWidth={"fluid"} isBordered variant="sticky" >
         <Navbar.Toggle showIn="xs" />
         <Navbar.Brand
           css={{
@@ -28,7 +28,7 @@ export default function Nav() {
           }}
         >
           <AcmeLogo />
-          <Text b color="inherit" hideIn="xs">
+          <Text b  hideIn="xs">
             KAYTEE
           </Text>
         </Navbar.Brand>
@@ -37,8 +37,9 @@ export default function Nav() {
           activeColor="secondary"
           hideIn="xs"
           variant="highlight-rounded"
+          
         >
-          <Navbar.Link href="#">Features</Navbar.Link>
+          <Navbar.Link  href="#">Features</Navbar.Link>
           <Navbar.Link isActive href="#">
             Customers
           </Navbar.Link>
@@ -50,6 +51,7 @@ export default function Nav() {
             "@xs": {
               w: "12%",
               jc: "flex-end",
+             
             },
           }}
         >

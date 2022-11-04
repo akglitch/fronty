@@ -8,7 +8,7 @@ function  Projects() {
     
   
     
-    <Container >
+    <Container lg >
     <Text
         h1
         size={30}
@@ -47,7 +47,7 @@ function  Projects() {
       isBlurred
       css={{
         position: "absolute",
-        bgBlur: "#ffffff66",
+        bgBlur: "#fff",
         borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
         bottom: 0,
         zIndex: 1,
@@ -58,15 +58,13 @@ function  Projects() {
           <Text color="#000" size={12}>
             Available soon.
           </Text>
-          <Text color="#000" size={12}>
-            Get notified.
-          </Text>
+         
         </Col>
         <Col>
           <Row justify="flex-end">
-            <Button flat auto rounded color="secondary">
+            <Button flat auto rounded color="primary">
               <Text
-                css={{ color: "inherit" }}
+                css={{ color: "dark"}}
                 size={12}
                 weight="bold"
                 transform="uppercase"
