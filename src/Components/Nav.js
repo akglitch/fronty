@@ -32,20 +32,7 @@ export default function Nav() {
             KAYTEE
           </Text>
         </Navbar.Brand>
-        <Navbar.Content
-          enableCursorHighlight
-          activeColor="secondary"
-          hideIn="xs"
-          variant="highlight-rounded"
-          
-        >
-          <Navbar.Link  href="#">Features</Navbar.Link>
-          <Navbar.Link isActive href="#">
-            Customers
-          </Navbar.Link>
-          <Navbar.Link href="#">Pricing</Navbar.Link>
-          <Navbar.Link href="#">Company</Navbar.Link>
-        </Navbar.Content>
+        
         <Navbar.Content
           css={{
             "@xs": {

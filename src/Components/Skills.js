@@ -1,7 +1,7 @@
 
 
 import { Popover, Button, Text, Grid, Container } from "@nextui-org/react";
-import Sate from "./Sate";
+
 
 export default function Skills() {
   const placements = [
@@ -55,7 +55,7 @@ export default function Skills() {
 
 
          
-          <Sate />
+        
           
 
 
