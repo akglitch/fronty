@@ -1,4 +1,4 @@
-import { Text,Grid,Link,Spacer, Container } from "@nextui-org/react"
+import { Grid,Link,Spacer, Container } from "@nextui-org/react"
 
 
 
